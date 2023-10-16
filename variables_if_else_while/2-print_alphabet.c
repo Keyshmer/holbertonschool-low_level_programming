@@ -9,14 +9,13 @@
  **/
 int main(void)
 {
-	srand(time(0));
-	n = rand() - RAND_MAX / 2;
-	/* your code goes there */
 	char c;
 
 	for (c = 'a' ; c <= 'z'; c++)
+	{
 	putchar(c);
-	putchar('\n');
+	}
 
+	putchar('\n');
 	return (0);
 }
