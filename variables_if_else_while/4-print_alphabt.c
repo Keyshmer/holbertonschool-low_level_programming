@@ -3,7 +3,7 @@
 /**
  * main - entry point
  *
- * Return:0 success
+ * Return: 0 success
  **/
 int main(void)
 {
@@ -11,10 +11,10 @@ int main(void)
 
 	for (low = 'a'; low <= 'z'; low++)
 	{
-	if (low != 'e' && low != 'q')
-	}
-	{
-		putchar(low);
+		if (low != 'e' && low != 'q')
+		{
+			putchar(low);
+		}
 	}
 	putchar('\n');
 	return (0);
