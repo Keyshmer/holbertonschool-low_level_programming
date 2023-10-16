@@ -1,8 +1,6 @@
-#include <stdlib.h>
-#include <time.h>
 #include <stdio.h>
+
 /**
- *
  * main - prints the alphabetic
  *
  * Return: 0 is success
