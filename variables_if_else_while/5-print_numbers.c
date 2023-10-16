@@ -1,4 +1,4 @@
-#include <tstdio.h>
+#include <stdio.h>
 
 /**
  * main - enetry points
