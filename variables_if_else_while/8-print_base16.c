@@ -13,7 +13,7 @@ int main(void)
 	{
 	putchar(h + '0');
 	}
-	for (low = a; low <= f; low++)
+	for (low = a; low <= f; lo++)
 	{
 	putchar(low);
 	}
