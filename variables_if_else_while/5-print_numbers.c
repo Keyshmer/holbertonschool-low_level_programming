@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main - enetry points
+ * main - print all single digit number
  *
  * Return: 0 success
  **/
