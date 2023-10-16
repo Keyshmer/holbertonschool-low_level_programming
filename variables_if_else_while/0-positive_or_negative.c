@@ -4,7 +4,7 @@
  * main - determine if n is negative or negative etc.
  *
  * Return: 0
-/**/
+**/
 int main(void)
 {
 	int n;
@@ -12,23 +12,24 @@ int main(void)
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 	/* your code goes there */
-	print(n);
+	printf(n);
 
 	if (n > 0)
 	{
-		print (is positive0);
+		printf(" is positive\n");
 	}
 	else
 	{
 		if (n == 0)
 		{
-			print (is zero);
+			printf(" is zero\n");
 		}
 		else
 		{
 		if (n < 0)
 		{
-			print (is negative);
+			printf(" is negative\n");
+		}
 		}
 	return (0);
 }
