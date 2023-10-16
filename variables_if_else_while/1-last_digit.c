@@ -4,16 +4,17 @@
 /**
  *  main - text or printf accoring to the number.
  *
- * Return: always (success)
+ * Return: 0 is success
  **/
 int main(void)
 {
-	int n;
+	int n, f;
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 	/* your code goes there */
-	last = n % 10;
+	f = n % 10;
+	prinf("Last  digit of %d is %d", n d);
 
 	if (last > 5)
 	{
