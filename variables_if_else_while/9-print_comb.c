@@ -14,7 +14,7 @@ int main(void)
 	if (u < 9)
 	{
 		putchar(',');
-		putchar('.');
+		putchar(' ');
 	}
 	}
 	putchar('\n');
